@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@builder.io/qwik':
-    specifier: 1.2.2
-    version: 1.2.2(undici@5.22.1)
+    specifier: 1.2.4
+    version: 1.2.4(undici@5.22.1)
   '@builder.io/qwik-city':
     specifier: 1.2.3
     version: 1.2.3
@@ -28,7 +28,7 @@ dependencies:
     version: 12.2.3
   '@types/node':
     specifier: latest
-    version: 20.3.2
+    version: 20.3.3
   '@typescript-eslint/eslint-plugin':
     specifier: 5.60.1
     version: 5.60.1(@typescript-eslint/parser@5.60.1)(eslint@8.43.0)(typescript@5.1.5)
@@ -37,7 +37,7 @@ dependencies:
     version: 5.60.1(eslint@8.43.0)(typescript@5.1.5)
   '@unpic/qwik':
     specifier: 0.0.20
-    version: 0.0.20(@builder.io/qwik@1.2.2)
+    version: 0.0.20(@builder.io/qwik@1.2.4)
   autoprefixer:
     specifier: 10.4.14
     version: 10.4.14(postcss@8.4.24)
@@ -73,7 +73,7 @@ dependencies:
     version: 5.1.5
   vite:
     specifier: 4.3.9
-    version: 4.3.9(@types/node@20.3.2)
+    version: 4.3.9(@types/node@20.3.3)
   vite-tsconfig-paths:
     specifier: 4.2.0
     version: 4.2.0(typescript@5.1.5)(vite@4.3.9)
@@ -129,13 +129,14 @@ packages:
       - supports-color
     dev: false
 
-  /@builder.io/qwik@1.2.2(undici@5.22.1):
-    resolution: {integrity: sha512-zPLXa7CFiNJvk2kCNlQO+Z15pgNXERGUUCVGTx9J/2S+GQ3sVynZEi9FgHFz0gowlY69yvAUWADNIWMCOISTfg==}
+  /@builder.io/qwik@1.2.4(undici@5.22.1):
+    resolution: {integrity: sha512-8nCSI23v3pxR8sMvoM/fw0wBSaxpITRwEyt7XTHRt+xoRwdQnfap8td66j+D7EDFDBynO88afKkmLZhMzDmW5A==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
       undici: ^5.14.0
     dependencies:
+      csstype: 3.1.2
       undici: 5.22.1
     dev: false
 
@@ -817,8 +818,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: false
 
-  /@types/node@20.3.2:
-    resolution: {integrity: sha512-vOBLVQeCQfIcF/2Y7eKFTqrMnizK5lRNQ7ykML/5RuwVXVWxYkgwS7xbt4B6fKCUPgbSL5FSsjHQpaGQP/dQmw==}
+  /@types/node@20.3.3:
+    resolution: {integrity: sha512-wheIYdr4NYML61AjC8MKj/2jrR/kDQri/CIpVoZwldwhnIrD/j9jIU5bJ8yBKuB2VhpFV7Ab6G2XkBjv9r9Zzw==}
     dev: false
 
   /@types/normalize-package-data@2.4.1:
@@ -837,7 +838,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.3.2
+      '@types/node': 20.3.3
     dev: false
     optional: true
 
@@ -971,13 +972,13 @@ packages:
       eslint-visitor-keys: 3.4.1
     dev: false
 
-  /@unpic/qwik@0.0.20(@builder.io/qwik@1.2.2):
+  /@unpic/qwik@0.0.20(@builder.io/qwik@1.2.4):
     resolution: {integrity: sha512-iDQCwKtM0rmb/0+1/2JDYjQHBoeaMBo0fhtlVF4+usLe8EEQMCvx/ZZj6xxCaKs3clgcfyJq1OoDT/o9p98qTQ==}
     engines: {node: '>=15.0.0'}
     peerDependencies:
       '@builder.io/qwik': '*'
     dependencies:
-      '@builder.io/qwik': 1.2.2(undici@5.22.1)
+      '@builder.io/qwik': 1.2.4(undici@5.22.1)
     dev: false
 
   /abab@2.0.6:
@@ -1801,6 +1802,10 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       cssom: 0.3.8
+    dev: false
+
+  /csstype@3.1.2:
+    resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
     dev: false
 
   /data-uri-to-buffer@4.0.1:
@@ -6052,13 +6057,13 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 2.1.1(typescript@5.1.5)
-      vite: 4.3.9(@types/node@20.3.2)
+      vite: 4.3.9(@types/node@20.3.3)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: false
 
-  /vite@4.3.9(@types/node@20.3.2):
+  /vite@4.3.9(@types/node@20.3.3):
     resolution: {integrity: sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -6083,7 +6088,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.3.2
+      '@types/node': 20.3.3
       esbuild: 0.17.18
       postcss: 8.4.24
       rollup: 3.21.5
