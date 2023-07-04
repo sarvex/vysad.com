@@ -22,10 +22,10 @@
     "qwik": "qwik"
   },
   "dependencies": {
-    "@builder.io/qwik": "1.2.2",
-    "@builder.io/qwik-city": "1.2.3",
+    "@builder.io/qwik": "1.2.4",
+    "@builder.io/qwik-city": "1.2.4",
     "@divriots/jampack": "0.13.0",
-    "@fontsource/inter": "5.0.3",
+    "@fontsource/inter": "5.0.4",
     "@tailwindcss/typography": "0.5.9",
     "@types/eslint": "8.40.2",
     "@types/markdown-it": "12.2.3",
@@ -35,7 +35,7 @@
     "@unpic/qwik": "0.0.20",
     "autoprefixer": "10.4.14",
     "eslint": "8.43.0",
-    "eslint-plugin-qwik": "1.2.2",
+    "eslint-plugin-qwik": "1.2.4",
     "gray-matter": "4.0.3",
     "markdown-it": "13.0.1",
     "node-fetch": "3.3.1",
@@ -43,7 +43,7 @@
     "prettier": "2.8.8",
     "subfont": "7.1.1",
     "tailwindcss": "3.3.2",
-    "typescript": "5.1.5",
+    "typescript": "5.1.6",
     "vite": "4.3.9",
     "vite-tsconfig-paths": "4.2.0"
   },
