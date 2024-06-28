@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@modular-forms/qwik':
     specifier: 0.24.0
-    version: 0.24.0(@builder.io/qwik-city@1.5.5)(@builder.io/qwik@1.5.5)
+    version: 0.24.0(@builder.io/qwik-city@1.6.0)(@builder.io/qwik@1.5.5)
   '@qwikest/icons':
     specifier: 0.0.13
     version: 0.0.13(@builder.io/qwik@1.5.5)
@@ -26,8 +26,8 @@ devDependencies:
     specifier: 1.5.5
     version: 1.5.5(@types/node@20.14.2)(undici@6.18.2)
   '@builder.io/qwik-city':
-    specifier: 1.5.5
-    version: 1.5.5(@types/node@20.14.2)
+    specifier: 1.6.0
+    version: 1.6.0(@types/node@20.14.2)
   '@playwright/test':
     specifier: 1.44.1
     version: 1.44.1
@@ -1438,8 +1438,8 @@ packages:
     dev: true
     optional: true
 
-  /@builder.io/qwik-city@1.5.5(@types/node@20.14.2):
-    resolution: {integrity: sha512-Xi/1WqrB91CpZcAXs43OC87+7h89hJczJp43FXUMrvTHGeUsR/udhpz6SZWI/mHh0PFNx6f0A59tPmtDDzYl0Q==}
+  /@builder.io/qwik-city@1.6.0(@types/node@20.14.2):
+    resolution: {integrity: sha512-XulIdmrPkdIA8yatRolyWtyVsmKB/CsamOb3loOaLc4ptHt5NMJiGCiS9axlyaqpAuy2LjZqb7S0ATACkjeK5w==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
       '@mdx-js/mdx': 3.0.1
@@ -2305,14 +2305,14 @@ packages:
       react: 18.2.0
     dev: true
 
-  /@modular-forms/qwik@0.24.0(@builder.io/qwik-city@1.5.5)(@builder.io/qwik@1.5.5):
+  /@modular-forms/qwik@0.24.0(@builder.io/qwik-city@1.6.0)(@builder.io/qwik@1.5.5):
     resolution: {integrity: sha512-mF+cOw2lmiEjCf7odYW65d1gxp5ozqAbDfX5Z6yAt0wE7wsRHBZgi0YoXAh63vRCEcR5UMG/9kdTXj3KCjxhug==}
     peerDependencies:
       '@builder.io/qwik': ^1.4.0
       '@builder.io/qwik-city': ^1.4.0
     dependencies:
       '@builder.io/qwik': 1.5.5(@types/node@20.14.2)(undici@6.18.2)
-      '@builder.io/qwik-city': 1.5.5(@types/node@20.14.2)
+      '@builder.io/qwik-city': 1.6.0(@types/node@20.14.2)
       decode-formdata: 0.7.2
     dev: false
 
@@ -2660,6 +2660,7 @@ packages:
   /@rollup/pluginutils@5.1.0:
     resolution: {integrity: sha512-XTIWOPPcpvyKI6L1NHo0lFlCyznUEyPmPY1mc3KpPVDYulHSTvyeLNVW00QTLIAFNhR3kYnJTQHeGqU4M3n09g==}
     engines: {node: '>=14.0.0'}
+    requiresBuild: true
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
     peerDependenciesMeta:
@@ -4915,6 +4916,7 @@ packages:
 
   /color-string@1.9.1:
     resolution: {integrity: sha512-shrVawQFojnZv6xM40anx4CkoDP+fZsw/ZerEMsW/pyzsRbElpsL/DBVW7q3ExxwusdNXI3lXpuhEZkzs8p5Eg==}
+    requiresBuild: true
     dependencies:
       color-name: 1.1.4
       simple-swizzle: 0.2.2
@@ -4927,6 +4929,7 @@ packages:
   /color@4.2.3:
     resolution: {integrity: sha512-1rXeuUUiGGrykh+CeBdu5Ie7OJwinCgQY0bc7GCRxy5xVHy+moaqkpL/jqQq0MtQOeYcrqEz4abc5f0KtU7W4A==}
     engines: {node: '>=12.5.0'}
+    requiresBuild: true
     dependencies:
       color-convert: 2.0.1
       color-string: 1.9.1
@@ -6803,6 +6806,7 @@ packages:
   /imagetools-core@6.0.4:
     resolution: {integrity: sha512-N1qs5qn7u9nR3kboISkYuvJm8MohiphCfBa+wx1UOropVaFis9/mh6wuDPLHJNhl6/64C7q2Pch5NASVKAaSrg==}
     engines: {node: '>=12.0.0'}
+    requiresBuild: true
     dependencies:
       sharp: 0.33.1
 
@@ -6900,6 +6904,7 @@ packages:
 
   /is-arrayish@0.3.2:
     resolution: {integrity: sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==}
+    requiresBuild: true
 
   /is-bigint@1.0.4:
     resolution: {integrity: sha512-zB9CruMamjym81i2JZ3UMn54PKGsQzsJeo6xvN3HJJ4CAsQNB6iRutp2To77OfCNuoxspsIhzaPoO1zyCEhFOg==}
@@ -7042,6 +7047,7 @@ packages:
 
   /is-reference@3.0.1:
     resolution: {integrity: sha512-baJJdQLiYaJdvFbJqXrcGv3WU3QCzBlUcI5QhbesIm6/xPsvmO+2CDoi/GMOFBQEQm+PXkwOPrp9KK5ozZsp2w==}
+    requiresBuild: true
     dependencies:
       '@types/estree': 1.0.5
 
@@ -9811,6 +9817,7 @@ packages:
 
   /simple-swizzle@0.2.2:
     resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==}
+    requiresBuild: true
     dependencies:
       is-arrayish: 0.3.2
 
