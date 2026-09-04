@@ -42,7 +42,7 @@
     "@typescript-eslint/eslint-plugin": "8.36.0",
     "@typescript-eslint/parser": "8.36.0",
     "@vitest/ui": "1.6.1",
-    "autoprefixer": "10.4.21",
+    "autoprefixer": "10.5.5",
     "eslint": "9.26.0",
     "eslint-plugin-qwik": "1.13.0",
     "postcss": "8.5.3",
